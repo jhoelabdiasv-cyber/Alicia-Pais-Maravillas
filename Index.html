@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alicia en el país de las maravillas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Alicia en el país de las maravillas</h1>
+    <p>Programación Web I — Tres ejercicios interactivos</p>
+  </header>
+  <main>
+    <section>
+      <h2>1. La poción mágica de Alicia</h2>
+      <p>Altura final = altura inicial - (poción × 0,5). Puerta de 100 cm. Poción: 0 a 100 ml.</p>
+      <form id="formPocion" novalidate>
+        <label for="altura">Altura inicial (cm)</label>
+        <input id="altura" type="number" step="any">
+        <label for="pocion">Poción (ml)</label>
+        <input id="pocion" type="number" step="any">
+        <button type="submit">Calcular</button>
+      </form>
+      <p id="resultadoPocion" class="resultado" aria-live="polite"></p>
+    </section>
+    <section>
+      <h2>2. La merienda del Sombrerero Loco</h2>
+      <p>Té: 5 Bs; café: 7 Bs; chocolate: 9 Bs; limonada: 6 Bs. Descuento del 10 % desde 50 Bs.</p>
+      <form id="formMerienda" novalidate>
+        <label for="invitado">Nombre del invitado</label>
+        <input id="invitado" type="text">
+        <label for="bebida">Bebida</label>
+        <select id="bebida">
+          <option value="">Elegir bebida</option>
+          <option value="te">Té</option>
+          <option value="cafe">Café</option>
+          <option value="chocolate">Chocolate</option>
+          <option value="limonada">Limonada</option>
+        </select>
+        <label for="tazas">Cantidad de tazas (1 a 20)</label>
+        <input id="tazas" type="number" step="1">
+        <button type="submit">Calcular compra</button>
+      </form>
+      <p id="resultadoMerienda" class="resultado" aria-live="polite"></p>
+    </section>
+    <section>
+      <h2>3. El desafío de la Reina de Corazones</h2>
+      <p>Analiza los números de cartas, del 1 al 30.</p>
+      <form id="formCartas" novalidate>
+        <label for="cartas">Número de cartas</label>
+        <input id="cartas" type="number" step="1">
+        <button type="submit">Analizar</button>
+      </form>
+      <p id="resultadoCartas" class="resultado" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer>Actividad práctica - Programación Web I</footer>
+  <script src="Javascript/tarea.js"></script>
+</body>
+</html>

@@ -108,3 +108,11 @@ Se realizaron 15 casos de prueba, cinco por ejercicio, utilizando datos válidos
 ## Página web publicada
 
 https://jhoelabdiasv-cyber.github.io/Alicia-Pais-Maravillas/
+## Evidencias de las pruebas
+
+Se realizaron 15 pruebas de funcionamiento,
+cinco por cada ejercicio.
+
+- [Pruebas del ejercicio 1 - Poción mágica](evidencias/Pruebas%20ejercicio%201.pdf)
+- [Pruebas del ejercicio 2 - Merienda](evidencias/Pruebas%20ejercicio%202.pdf)
+- [Pruebas del ejercicio 3 - Reina de Corazones](evidencias/Pruebas%20ejercicio%203.pdf)

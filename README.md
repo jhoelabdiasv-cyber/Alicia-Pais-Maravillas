@@ -1,7 +1,7 @@
 # Alicia en el país de las maravillas
 
 **Materia:** Programación Web I  
-**Tecnologías:** HTML5, CSS3 y JavaScript nativo.
+**Tecnologías:** HTML5, CSS y JavaScript nativo.
 
 ## Descripción
 Esta aplicación web reúne tres ejercicios interactivos inspirados en Alicia en el país de las maravillas. Los formularios reciben información, verifican los datos y presentan resultados directamente en la página sin recargarla.

@@ -71,3 +71,40 @@ El programa controla campos vacíos, rangos no permitidos y cantidades no entera
 
 ## Conclusión
 El proyecto aplica las estructuras de programación fundamentales mediante situaciones interactivas, combinando formularios HTML, estilos CSS y manipulación del DOM con JavaScript.
+## Registro de pruebas
+
+Se realizaron 15 casos de prueba, cinco por ejercicio, utilizando datos válidos, incorrectos y casos límite.
+
+### Ejercicio 1. La poción mágica de Alicia
+
+| Caso | Datos ingresados | Resultado esperado | Resultado obtenido |
+|---|---|---|---|
+| P1 | Altura: 140 cm; poción: 100 ml | 90 cm; puede cruzar | 90,00 cm; puede cruzar |
+| P2 | Altura: 160 cm; poción: 20 ml | 150 cm; no puede cruzar | 150 cm; no puede pasar |
+| P3 | Altura: 100 cm; poción: 0 ml | 100 cm; puede cruzar | 100 cm; puede pasar |
+| P4 | Altura: 0 cm; poción: 20 ml | Error por altura inválida | Error por altura inválida |
+| P5 | Altura: 120 cm; poción: 101 ml | Error por poción fuera de rango | Error por poción fuera de rango |
+
+### Ejercicio 2. La merienda del Sombrerero Loco
+
+| Caso | Datos ingresados | Resultado esperado | Resultado obtenido |
+|---|---|---|---|
+| M1 | Ana; té; 2 tazas | Total: 10 Bs | Total: 10 Bs |
+| M2 | Luis; chocolate; 6 tazas | Total: 48,60 Bs | Subtotal: 54 Bs; descuento: 5,40 Bs; total: 48,60 Bs |
+| M3 | Eva; café; 1 taza | Total: 7 Bs | Total: 7 Bs |
+| M4 | Nombre vacío; té; 2 tazas | Error por campo vacío | Error por campo vacío |
+| M5 | Ana; té; 21 tazas | Error por cantidad inválida | Error por cantidad inválida |
+
+### Ejercicio 3. El desafío de la Reina de Corazones
+
+| Caso | Datos ingresados | Resultado esperado | Resultado obtenido |
+|---|---|---|---|
+| C1 | 1 carta | Pares: 0, suma 0; impares: 1, suma 1 | Pares: 0, suma 0; impares: 1, suma 1 |
+| C2 | 2 cartas | Pares: 1, suma 2; impares: 1, suma 1 | Pares: 1, suma 2; impares: 1, suma 1 |
+| C3 | 30 cartas | Pares: 15, suma 240; impares: 15, suma 225 | Pares: 15, suma 240; impares: 15, suma 225 |
+| C4 | 0 cartas | Error por cantidad inválida | Error por cantidad inválida |
+| C5 | 31 cartas | Error por cantidad inválida | Error por cantidad inválida |
+
+## Página web publicada
+
+https://jhoelabdiasv-cyber.github.io/Alicia-Pais-Maravillas/
